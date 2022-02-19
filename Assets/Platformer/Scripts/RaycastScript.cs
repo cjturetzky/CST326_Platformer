@@ -17,10 +17,10 @@ public class RaycastScript : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
             if (Physics.Raycast(ray, out RaycastHit hit)) {    
                 Debug.Log($"You have clicked {hit.transform.name}");
-                if(hit.transform.name == "Brick"){
+                if(hit.transform.name == "Brick(Clone)"){
                     Destroy(hit.transform.gameObject);
                 }
-                else if(hit.transform.name == "Question"){
+                else if(hit.transform.name == "Question(Clone)"){
                     Debug.Log("Add 1 to coin count");
                 }
             }  
