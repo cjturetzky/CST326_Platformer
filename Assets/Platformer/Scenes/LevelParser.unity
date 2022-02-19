@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406602702}
   - component: {fileID: 406602703}
+  - component: {fileID: 406602704}
   m_Layer: 0
   m_Name: Level 1-1
   m_TagString: Untagged
@@ -174,6 +175,18 @@ MonoBehaviour:
   questionBoxPrefab: {fileID: 2652198492393551387, guid: 97d0fe6850ab3714eaa654f26f4ca9f8, type: 3}
   stonePrefab: {fileID: 2652198492393551387, guid: e2bf2963d586ea44ea04e84c9ae1fa8e, type: 3}
   environmentRoot: {fileID: 727678647}
+--- !u!114 &406602704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406602700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900749860aea54e5a9a816ca02fbf422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727678646
 GameObject:
   m_ObjectHideFlags: 0
