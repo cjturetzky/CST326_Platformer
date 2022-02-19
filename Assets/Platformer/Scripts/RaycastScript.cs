@@ -21,7 +21,6 @@ public class RaycastScript : MonoBehaviour
                     Destroy(hit.transform.gameObject);
                 }
                 else if(hit.transform.name == "Question"){
-                    Destroy(hit.transform.gameObject);
                     Debug.Log("Add 1 to coin count");
                 }
             }  
