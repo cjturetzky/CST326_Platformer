@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Platformer/Scripts/LevelParser.cs"
 "Assets/Platformer/Scripts/RaycastScript.cs"
+"Assets/Platformer/Scripts/TimeCoinScript.cs"
 -langversion:9.0
 
 /deterministic

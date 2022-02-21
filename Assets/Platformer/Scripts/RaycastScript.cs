@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class RaycastScript : MonoBehaviour
 {
+    public TextMeshProUGUI coinText;
+    private int coins = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,13 @@ public class RaycastScript : MonoBehaviour
                 }
                 else if(hit.transform.name == "Question(Clone)"){
                     Debug.Log("Add 1 to coin count");
+                    coins++;
+                    if(coins < 10){
+                        coinText.text = $"$x0{coins.ToString()}";
+                    }
+                    else{
+                        coinText.text = $"$x{coins.ToString()}";
+                    }
                 }
             }  
         } 
