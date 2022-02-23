@@ -26,6 +26,7 @@ public class RaycastScript : MonoBehaviour
                 else if(hit.transform.name == "Question(Clone)"){
                     Debug.Log("Add 1 to coin count");
                     coins++;
+                    this.GetComponent<AudioSource>().Play();
                     if(coins < 10){
                         coinText.text = $"$x0{coins.ToString()}";
                     }

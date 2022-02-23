@@ -2477,3 +2477,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3486.013236 seconds.
+  path: Assets/Platformer/Scripts/RaycastScript.cs
+  artifactKey: Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Scripts/RaycastScript.cs using Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4208b43acc77076a66939d7e78d8b7c0') in 0.280485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.061786 seconds.
+  path: Assets/Resources/super-mario-bros-coin.mp3
+  artifactKey: Guid(164282ab7a42742b4ba2ba5cb50835d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/super-mario-bros-coin.mp3 using Guid(164282ab7a42742b4ba2ba5cb50835d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e342d7ea958b60f43a0ab14b4462db') in 1.510853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.742319 seconds.
+  path: Assets/Platformer/Scripts/RaycastScript.cs
+  artifactKey: Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Scripts/RaycastScript.cs using Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecf1ac63fd3795a053f04ef08cd5f51') in 0.011200 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001708 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16cfdf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/cjturetzky/Documents/Unity/CST326_Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/cjturetzky/Documents/Unity/CST326_Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (330ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3893.
+Memory consumption went from 266.4 MB to 266.4 MB.
+Total: 2.596083 ms (FindLiveObjects: 0.139917 ms CreateObjectMapping: 0.049958 ms MarkObjects: 2.340250 ms  DeleteObjects: 0.065250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.630612 seconds.
+  path: Assets/Platformer/Scripts/RaycastScript.cs
+  artifactKey: Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Scripts/RaycastScript.cs using Guid(900749860aea54e5a9a816ca02fbf422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fad9c73a05d7ba57762732988a3ae0') in 0.004396 seconds 
