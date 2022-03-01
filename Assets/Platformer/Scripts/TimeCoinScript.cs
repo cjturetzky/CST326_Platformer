@@ -6,7 +6,7 @@ using TMPro;
 public class TimeCoinScript : MonoBehaviour
 {
     public TextMeshProUGUI timerTextmesh;
-    public int maxTime = 400;
+    public int maxTime = 100;
     private int currentTime;
     private float elapsedTime = 0;
     // Start is called before the first frame update
@@ -23,6 +23,13 @@ public class TimeCoinScript : MonoBehaviour
             currentTime--;
             elapsedTime = 0;
         }
-        timerTextmesh.text = currentTime.ToString();
+        if(currentTime > 0){
+            timerTextmesh.text = currentTime.ToString();
+        }
+        if(currentTime == 0){
+            timerTextmesh.text = "Time's up! Game Over";
+            Debug.Log("Timer ran out.");
+            currentTime = -1;
+        }
     }
 }
